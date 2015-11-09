@@ -1,0 +1,1316 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{38b078ec-f05b-42ab-9248-6e432787a34c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Public">
+      <UniqueIdentifier>{4f8df25b-5b20-431d-aa81-a20fa70a710f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUISystem">
+      <UniqueIdentifier>{c08cb8f9-be56-410b-8ad7-48d11d86f66e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{17e0cc6d-4e95-4547-89a8-d20b09427cf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Launcher">
+      <UniqueIdentifier>{a6f8dac7-f169-4445-b5d5-91134ce8e96e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SoundSystem">
+      <UniqueIdentifier>{d0913c6f-a352-456b-83d5-acd6898cdabe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUISystem\Private">
+      <UniqueIdentifier>{ca612460-e767-47ee-9106-4953a2641072}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input\Private">
+      <UniqueIdentifier>{1e735128-4076-498a-a741-780e86ae9164}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Launcher\Private">
+      <UniqueIdentifier>{2adc345c-0ea3-44c1-b25b-fd0c0a836d41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SoundSystem\Private">
+      <UniqueIdentifier>{b4f4bbf7-79db-40dd-b559-293ed0752055}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUISystem\Public">
+      <UniqueIdentifier>{acb90e25-0ba8-493a-84ea-ec47b8792c7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input\Public">
+      <UniqueIdentifier>{72af155a-0789-4811-bfa2-3e88ed03907e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SoundSystem\Public">
+      <UniqueIdentifier>{d486e6cc-e950-42d7-becc-335c37c8523e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CWrapper">
+      <UniqueIdentifier>{22076938-931d-4ad8-88af-0b89b5b92b67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CWrapper\Public">
+      <UniqueIdentifier>{14508265-b115-4211-a2ec-d6a08f2c79df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CWrapper\Private">
+      <UniqueIdentifier>{4a72b293-1d96-4ad5-a44f-1f173e189a8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3DRenderer">
+      <UniqueIdentifier>{0e012d0e-b436-4dbf-8270-4701b4099f29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3DRenderer\Private">
+      <UniqueIdentifier>{0b1406b5-c09f-44bf-bc14-8b58acec19fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ReflectionTool">
+      <UniqueIdentifier>{d8e872bc-3d97-4601-9266-a5062dad3cd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ReflectionTool\Private">
+      <UniqueIdentifier>{468ecf33-7e01-4013-8862-deb82cca12d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics">
+      <UniqueIdentifier>{a8ca6d06-2626-492b-874f-889d368c7d65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics\Private">
+      <UniqueIdentifier>{4a6ab206-1579-4dc3-af46-9f067b650eb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics\Public">
+      <UniqueIdentifier>{af475034-bc0d-42e9-b72e-c82e685505af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Reflection">
+      <UniqueIdentifier>{f39ca65e-40b0-4ab7-bdcf-ff63f3de9bf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Reflection\Private">
+      <UniqueIdentifier>{a26858dc-e3a1-4b76-9ce4-e4b193e7c539}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Reflection\Public">
+      <UniqueIdentifier>{48970b44-390b-4ff8-91f2-f9613a1a31fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Basic">
+      <UniqueIdentifier>{0c64f603-4c54-403f-8b1c-5728857ff6a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Basic\Private">
+      <UniqueIdentifier>{86e8c317-59a4-4577-bcfd-a804d0a277eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Basic\Public">
+      <UniqueIdentifier>{339f9e5b-e7c1-4915-bbcf-061cbc7e86bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Private">
+      <UniqueIdentifier>{ea77034c-c8d8-4fad-964a-4d0b2c43fbe4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{345553ce-4028-44e9-87bd-0995d74c758f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Private">
+      <UniqueIdentifier>{3fc47e24-1c13-46c8-a367-88bf5bf9f7ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Public">
+      <UniqueIdentifier>{13489667-4547-4644-bb9a-d34c0aab33fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Public\Renderer">
+      <UniqueIdentifier>{1957b036-fcae-46e8-9432-ef97ef27a2a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Private\Renderer">
+      <UniqueIdentifier>{7deebd93-8df8-48bb-85c9-90fb2c2c4425}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GUISystem\Private\Button.cpp">
+      <Filter>GUISystem\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="GUISystem\Private\Font.cpp">
+      <Filter>GUISystem\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="GUISystem\Private\GUIScene.cpp">
+      <Filter>GUISystem\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="GUISystem\Private\GUISystem.cpp">
+      <Filter>GUISystem\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="GUISystem\Private\Helper.cpp">
+      <Filter>GUISystem\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="GUISystem\Private\Label.cpp">
+      <Filter>GUISystem\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="GUISystem\Private\Main.cpp">
+      <Filter>GUISystem\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="GUISystem\Private\ProgressBar.cpp">
+      <Filter>GUISystem\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="GUISystem\Private\TextBox.cpp">
+      <Filter>GUISystem\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundSystem\Private\Sound.cpp">
+      <Filter>SoundSystem\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundSystem\Private\SoundGroup.cpp">
+      <Filter>SoundSystem\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundSystem\Private\SoundSystem.cpp">
+      <Filter>SoundSystem\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundSystem\Private\Main.cpp">
+      <Filter>SoundSystem\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Private\BoxShape.cpp">
+      <Filter>Physics\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Private\CircleShape.cpp">
+      <Filter>Physics\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Private\Contact.cpp">
+      <Filter>Physics\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Private\ContactImpulse.cpp">
+      <Filter>Physics\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Private\ContactListener.cpp">
+      <Filter>Physics\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Private\DistanceJoint.cpp">
+      <Filter>Physics\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Private\EdgeShape.cpp">
+      <Filter>Physics\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Private\Fixture.cpp">
+      <Filter>Physics\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Private\GearJoint.cpp">
+      <Filter>Physics\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Private\Main.cpp">
+      <Filter>Physics\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Private\PhysicsEngine.cpp">
+      <Filter>Physics\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Private\PhysicsScene.cpp">
+      <Filter>Physics\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Private\PolygonShape.cpp">
+      <Filter>Physics\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Private\PrismaticJoint.cpp">
+      <Filter>Physics\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Private\PulleyJoint.cpp">
+      <Filter>Physics\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Private\RevoluteJoint.cpp">
+      <Filter>Physics\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Private\RopeJoint.cpp">
+      <Filter>Physics\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Private\WeldJoint.cpp">
+      <Filter>Physics\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Private\WheelJoint.cpp">
+      <Filter>Physics\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Private\Body.cpp">
+      <Filter>Physics\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Launcher\Private\Benchmark.cpp">
+      <Filter>Launcher\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Launcher\Private\Main.cpp">
+      <Filter>Launcher\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\Private\InputManager.cpp">
+      <Filter>Input\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\Private\Main.cpp">
+      <Filter>Input\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="CWrapper\Private\CameraAPI.cpp">
+      <Filter>CWrapper\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="CWrapper\Private\ComponentAPI.cpp">
+      <Filter>CWrapper\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="CWrapper\Private\CompositeAPI.cpp">
+      <Filter>CWrapper\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="CWrapper\Private\CompositeResourcesManagerAPI.cpp">
+      <Filter>CWrapper\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="CWrapper\Private\CoreAPI.cpp">
+      <Filter>CWrapper\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="CWrapper\Private\GameObjectAPI.cpp">
+      <Filter>CWrapper\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="CWrapper\Private\GPUProgramUsageAPI.cpp">
+      <Filter>CWrapper\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="CWrapper\Private\LogAPI.cpp">
+      <Filter>CWrapper\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="CWrapper\Private\MaterialAPI.cpp">
+      <Filter>CWrapper\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="CWrapper\Private\MaterialResourcesManagerAPI.cpp">
+      <Filter>CWrapper\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="CWrapper\Private\MeshResourcesManagerAPI.cpp">
+      <Filter>CWrapper\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="CWrapper\Private\PassAPI.cpp">
+      <Filter>CWrapper\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="CWrapper\Private\RenderEngineAPI.cpp">
+      <Filter>CWrapper\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="CWrapper\Private\RendererAPI.cpp">
+      <Filter>CWrapper\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="CWrapper\Private\RenderTargetAPI.cpp">
+      <Filter>CWrapper\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="CWrapper\Private\RenderWindowAPI.cpp">
+      <Filter>CWrapper\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="CWrapper\Private\ResourcesManagerAPI.cpp">
+      <Filter>CWrapper\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="CWrapper\Private\SceneAPI.cpp">
+      <Filter>CWrapper\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="CWrapper\Private\TextureAPI.cpp">
+      <Filter>CWrapper\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="CWrapper\Private\TextureResourcesManagerAPI.cpp">
+      <Filter>CWrapper\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="CWrapper\Private\TransformAPI.cpp">
+      <Filter>CWrapper\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="CWrapper\Private\Utilities.cpp">
+      <Filter>CWrapper\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="CWrapper\Private\WindowUtilityAPI.cpp">
+      <Filter>CWrapper\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="ReflectionTool\Private\CodePageParser.cpp">
+      <Filter>ReflectionTool\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="ReflectionTool\Private\HeaderParser.cpp">
+      <Filter>ReflectionTool\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="ReflectionTool\Private\Main.cpp">
+      <Filter>ReflectionTool\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="ReflectionTool\Private\ReflectionGenerator.cpp">
+      <Filter>ReflectionTool\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="ReflectionTool\Private\Token.cpp">
+      <Filter>ReflectionTool\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Reflection\Private\EnumType.cpp">
+      <Filter>Reflection\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Reflection\Private\ImplementDataStructureType.cpp">
+      <Filter>Reflection\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Reflection\Private\ImplementEnumType.cpp">
+      <Filter>Reflection\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Reflection\Private\ImplementFunctionType.cpp">
+      <Filter>Reflection\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Reflection\Private\ImplementPropertyType.cpp">
+      <Filter>Reflection\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Reflection\Private\Runtime.cpp">
+      <Filter>Reflection\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Reflection\Private\RuntimeImplementation.cpp">
+      <Filter>Reflection\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Reflection\Private\Type.cpp">
+      <Filter>Reflection\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Reflection\Private\FunctionType.cpp">
+      <Filter>Reflection\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Reflection\Private\Enum.cpp">
+      <Filter>Reflection\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Basic\Private\BoundingBox.cpp">
+      <Filter>Basic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Basic\Private\BoundingSphere.cpp">
+      <Filter>Basic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Basic\Private\CMath.cpp">
+      <Filter>Basic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Basic\Private\Colour.cpp">
+      <Filter>Basic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Basic\Private\CTime.cpp">
+      <Filter>Basic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Basic\Private\File.cpp">
+      <Filter>Basic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Basic\Private\FileIO.cpp">
+      <Filter>Basic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Basic\Private\Line3D.cpp">
+      <Filter>Basic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Basic\Private\Math.cpp">
+      <Filter>Basic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Basic\Private\Matrix4.cpp">
+      <Filter>Basic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Basic\Private\Object.cpp">
+      <Filter>Basic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Basic\Private\StringConverter.cpp">
+      <Filter>Basic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Basic\Private\SystemTime.cpp">
+      <Filter>Basic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Basic\Private\Thread.cpp">
+      <Filter>Basic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Basic\Private\ThreadManager.cpp">
+      <Filter>Basic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Basic\Private\Vector2.cpp">
+      <Filter>Basic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Basic\Private\Vector3.cpp">
+      <Filter>Basic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Basic\Private\WindowUtility.cpp">
+      <Filter>Basic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Private\AllocationPolicy.cpp">
+      <Filter>Common\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Private\BasicString.cpp">
+      <Filter>Common\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Private\CAllocationPolicy.cpp">
+      <Filter>Common\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Private\ReferenceCounted.cpp">
+      <Filter>Common\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Private\SmallObjectAllocationPolicy.cpp">
+      <Filter>Common\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Private\StringUtility.cpp">
+      <Filter>Common\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Private\Utility.cpp">
+      <Filter>Common\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Basic\Private\ArgumentsParser.cpp">
+      <Filter>Basic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Private\AndroidSystem.cpp">
+      <Filter>Core\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Private\Component.cpp">
+      <Filter>Core\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Private\ComponentManager.cpp">
+      <Filter>Core\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Private\Core.cpp">
+      <Filter>Core\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Private\Exception.cpp">
+      <Filter>Core\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Private\GameObject.cpp">
+      <Filter>Core\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Private\Image.cpp">
+      <Filter>Core\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Private\Log.cpp">
+      <Filter>Core\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Private\NativeWindow.cpp">
+      <Filter>Core\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Private\PluginManager.cpp">
+      <Filter>Core\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Private\ResourcesManager.cpp">
+      <Filter>Core\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Private\Scene.cpp">
+      <Filter>Core\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Private\SceneAllocationPolicy.cpp">
+      <Filter>Core\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Private\ScriptSystem.cpp">
+      <Filter>Core\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Private\Statistics.cpp">
+      <Filter>Core\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Private\Transform.cpp">
+      <Filter>Core\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Private\Renderer\GPUParamDefinition.cpp">
+      <Filter>Core\Private\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Private\Renderer\CompositeResourcesManager.cpp">
+      <Filter>Core\Private\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Private\Renderer\FragmentGPUProgramResourcesManager.cpp">
+      <Filter>Core\Private\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Private\Renderer\GPUProgramResourcesManager.cpp">
+      <Filter>Core\Private\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Private\Renderer\MaterialResourcesManager.cpp">
+      <Filter>Core\Private\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Private\Renderer\TextureResourcesManager.cpp">
+      <Filter>Core\Private\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Private\Renderer\VertexGPUProgramResourcesManager.cpp">
+      <Filter>Core\Private\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Private\Renderer\MeshResourcesManager.cpp">
+      <Filter>Core\Private\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Reflection\Private\ConstructorType.cpp">
+      <Filter>Reflection\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Reflection\Private\ImplementConstructorType.cpp">
+      <Filter>Reflection\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Reflection\Private\DataStructureType.cpp">
+      <Filter>Reflection\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DRenderer\Private\Camera.cpp">
+      <Filter>D3DRenderer\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DRenderer\Private\CompositePass.cpp">
+      <Filter>D3DRenderer\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DRenderer\Private\FragmentGPUProgram.cpp">
+      <Filter>D3DRenderer\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DRenderer\Private\GPUProgram.cpp">
+      <Filter>D3DRenderer\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DRenderer\Private\GPUProgramUsage.cpp">
+      <Filter>D3DRenderer\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DRenderer\Private\Main.cpp">
+      <Filter>D3DRenderer\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DRenderer\Private\Material.cpp">
+      <Filter>D3DRenderer\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DRenderer\Private\Mesh.cpp">
+      <Filter>D3DRenderer\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DRenderer\Private\Movie.cpp">
+      <Filter>D3DRenderer\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DRenderer\Private\MovieManager.cpp">
+      <Filter>D3DRenderer\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DRenderer\Private\Pass.cpp">
+      <Filter>D3DRenderer\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DRenderer\Private\RenderEngine.cpp">
+      <Filter>D3DRenderer\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DRenderer\Private\Renderer.cpp">
+      <Filter>D3DRenderer\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DRenderer\Private\RenderTargetTexture.cpp">
+      <Filter>D3DRenderer\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DRenderer\Private\RenderWindow.cpp">
+      <Filter>D3DRenderer\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DRenderer\Private\Surface.cpp">
+      <Filter>D3DRenderer\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DRenderer\Private\SwapChain.cpp">
+      <Filter>D3DRenderer\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DRenderer\Private\Texture.cpp">
+      <Filter>D3DRenderer\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DRenderer\Private\VertexGPUProgram.cpp">
+      <Filter>D3DRenderer\Private</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GUISystem\Private\Button.h">
+      <Filter>GUISystem\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="GUISystem\Private\Font.h">
+      <Filter>GUISystem\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="GUISystem\Private\FreeTypeInclude.h">
+      <Filter>GUISystem\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="GUISystem\Private\GUIScene.h">
+      <Filter>GUISystem\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="GUISystem\Private\GUISystem.h">
+      <Filter>GUISystem\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="GUISystem\Private\Helper.h">
+      <Filter>GUISystem\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="GUISystem\Private\IRenderable.h">
+      <Filter>GUISystem\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="GUISystem\Private\Label.h">
+      <Filter>GUISystem\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="GUISystem\Private\ProgressBar.h">
+      <Filter>GUISystem\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="GUISystem\Private\TextBox.h">
+      <Filter>GUISystem\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundSystem\Public\ISound.h">
+      <Filter>SoundSystem\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundSystem\Public\ISoundGroup.h">
+      <Filter>SoundSystem\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundSystem\Public\ISoundSystem.h">
+      <Filter>SoundSystem\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundSystem\Private\Sound.h">
+      <Filter>SoundSystem\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundSystem\Private\SoundGroup.h">
+      <Filter>SoundSystem\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundSystem\Private\SoundSystem.h">
+      <Filter>SoundSystem\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Public\IBody.h">
+      <Filter>Physics\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Public\IBoxShape.h">
+      <Filter>Physics\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Public\ICircleShape.h">
+      <Filter>Physics\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Public\IContact.h">
+      <Filter>Physics\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Public\IContactImpulse.h">
+      <Filter>Physics\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Public\IDistanceJoint.h">
+      <Filter>Physics\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Public\IEdgeShape.h">
+      <Filter>Physics\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Public\IFixture.h">
+      <Filter>Physics\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Public\IGearJoint.h">
+      <Filter>Physics\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Public\IJoint.h">
+      <Filter>Physics\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Public\IPhysicsEngine.h">
+      <Filter>Physics\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Public\IPhysicsScene.h">
+      <Filter>Physics\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Public\IPolygonShape.h">
+      <Filter>Physics\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Public\IPrismaticJoint.h">
+      <Filter>Physics\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Public\IPulleyJoint.h">
+      <Filter>Physics\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Public\IRevoluteJoint.h">
+      <Filter>Physics\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Public\IRopeJoint.h">
+      <Filter>Physics\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Public\IShape.h">
+      <Filter>Physics\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Public\IWeldJoint.h">
+      <Filter>Physics\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Public\IWheelJoint.h">
+      <Filter>Physics\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Private\Body.h">
+      <Filter>Physics\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Private\BoxShape.h">
+      <Filter>Physics\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Private\CircleShape.h">
+      <Filter>Physics\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Private\Contact.h">
+      <Filter>Physics\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Private\ContactImpulse.h">
+      <Filter>Physics\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Private\ContactListener.h">
+      <Filter>Physics\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Private\DistanceJoint.h">
+      <Filter>Physics\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Private\EdgeShape.h">
+      <Filter>Physics\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Private\Fixture.h">
+      <Filter>Physics\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Private\GearJoint.h">
+      <Filter>Physics\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Private\PhysicsCommon.h">
+      <Filter>Physics\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Private\PhysicsEngine.h">
+      <Filter>Physics\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Private\PhysicsScene.h">
+      <Filter>Physics\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Private\PolygonShape.h">
+      <Filter>Physics\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Private\PrismaticJoint.h">
+      <Filter>Physics\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Private\PulleyJoint.h">
+      <Filter>Physics\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Private\RevoluteJoint.h">
+      <Filter>Physics\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Private\RopeJoint.h">
+      <Filter>Physics\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Private\WeldJoint.h">
+      <Filter>Physics\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Private\WheelJoint.h">
+      <Filter>Physics\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="Launcher\Private\LauncherCommon.h">
+      <Filter>Launcher\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\Private\InputManager.h">
+      <Filter>Input\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\Public\IInputManager.h">
+      <Filter>Input\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\Public\KeyCodes.h">
+      <Filter>Input\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="GUISystem\Public\IButton.h">
+      <Filter>GUISystem\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="GUISystem\Public\IFont.h">
+      <Filter>GUISystem\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="GUISystem\Public\IGUIObject.h">
+      <Filter>GUISystem\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="GUISystem\Public\IGUIScene.h">
+      <Filter>GUISystem\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="GUISystem\Public\IGUISystem.h">
+      <Filter>GUISystem\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="GUISystem\Public\ILabel.h">
+      <Filter>GUISystem\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="GUISystem\Public\IProgressBar.h">
+      <Filter>GUISystem\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="GUISystem\Public\ITextBox.h">
+      <Filter>GUISystem\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="CWrapper\Public\CameraAPI.h">
+      <Filter>CWrapper\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="CWrapper\Public\ComponentAPI.h">
+      <Filter>CWrapper\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="CWrapper\Public\CompositeAPI.h">
+      <Filter>CWrapper\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="CWrapper\Public\CompositeResourcesManagerAPI.h">
+      <Filter>CWrapper\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="CWrapper\Public\CoreAPI.h">
+      <Filter>CWrapper\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="CWrapper\Public\GameObjectAPI.h">
+      <Filter>CWrapper\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="CWrapper\Public\GPUProgramUsageAPI.h">
+      <Filter>CWrapper\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="CWrapper\Public\LogAPI.h">
+      <Filter>CWrapper\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="CWrapper\Public\MaterialAPI.h">
+      <Filter>CWrapper\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="CWrapper\Public\MaterialResourcesManagerAPI.h">
+      <Filter>CWrapper\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="CWrapper\Public\MeshResourcesManagerAPI.h">
+      <Filter>CWrapper\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="CWrapper\Public\PassAPI.h">
+      <Filter>CWrapper\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="CWrapper\Public\RenderEngineAPI.h">
+      <Filter>CWrapper\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="CWrapper\Public\RendererAPI.h">
+      <Filter>CWrapper\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="CWrapper\Public\RenderTargetAPI.h">
+      <Filter>CWrapper\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="CWrapper\Public\RenderWindowAPI.h">
+      <Filter>CWrapper\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="CWrapper\Public\ResourcesManagerAPI.h">
+      <Filter>CWrapper\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="CWrapper\Public\SceneAPI.h">
+      <Filter>CWrapper\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="CWrapper\Public\TextureAPI.h">
+      <Filter>CWrapper\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="CWrapper\Public\TextureResourcesManagerAPI.h">
+      <Filter>CWrapper\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="CWrapper\Public\TransformAPI.h">
+      <Filter>CWrapper\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="CWrapper\Public\Utilities.h">
+      <Filter>CWrapper\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="CWrapper\Public\WindowUtilityAPI.h">
+      <Filter>CWrapper\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="ReflectionTool\Private\CodePageParser.h">
+      <Filter>ReflectionTool\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="ReflectionTool\Private\Console.h">
+      <Filter>ReflectionTool\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="ReflectionTool\Private\Constants.h">
+      <Filter>ReflectionTool\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="ReflectionTool\Private\HeaderParser.h">
+      <Filter>ReflectionTool\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="ReflectionTool\Private\MetaDataStructure.h">
+      <Filter>ReflectionTool\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="ReflectionTool\Private\MetaEnum.h">
+      <Filter>ReflectionTool\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="ReflectionTool\Private\MetaProperty.h">
+      <Filter>ReflectionTool\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="ReflectionTool\Private\ReflectionGenerator.h">
+      <Filter>ReflectionTool\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="ReflectionTool\Private\Specifiers.h">
+      <Filter>ReflectionTool\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="ReflectionTool\Private\Token.h">
+      <Filter>ReflectionTool\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="ReflectionTool\Private\MetaFunction.h">
+      <Filter>ReflectionTool\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="Reflection\Public\DataStructureType.h">
+      <Filter>Reflection\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Reflection\Public\DataType.h">
+      <Filter>Reflection\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Reflection\Public\EnumType.h">
+      <Filter>Reflection\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Reflection\Public\FunctionType.h">
+      <Filter>Reflection\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Reflection\Public\PropertyType.h">
+      <Filter>Reflection\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Reflection\Public\Runtime.h">
+      <Filter>Reflection\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Reflection\Public\Type.h">
+      <Filter>Reflection\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Reflection\Private\ImplementDataStructureType.h">
+      <Filter>Reflection\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="Reflection\Private\ImplementEnumType.h">
+      <Filter>Reflection\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="Reflection\Private\ImplementFunctionType.h">
+      <Filter>Reflection\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="Reflection\Private\ImplementPropertyType.h">
+      <Filter>Reflection\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="Reflection\Private\RuntimeImplementation.h">
+      <Filter>Reflection\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="Reflection\Public\ReflectionDefinitions.h">
+      <Filter>Reflection\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Reflection\Public\Enum.h">
+      <Filter>Reflection\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Basic\Public\AnyDataType.h">
+      <Filter>Basic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Basic\Public\BoundingBox.h">
+      <Filter>Basic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Basic\Public\BoundingSphere.h">
+      <Filter>Basic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Basic\Public\CMath.h">
+      <Filter>Basic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Basic\Public\Colour.h">
+      <Filter>Basic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Basic\Public\CTime.h">
+      <Filter>Basic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Basic\Public\File.h">
+      <Filter>Basic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Basic\Public\FileIO.h">
+      <Filter>Basic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Basic\Public\Line3D.h">
+      <Filter>Basic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Basic\Public\Matrix4.h">
+      <Filter>Basic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Basic\Public\Object.h">
+      <Filter>Basic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Basic\Public\StringConverter.h">
+      <Filter>Basic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Basic\Public\SystemTime.h">
+      <Filter>Basic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Basic\Public\Thread.h">
+      <Filter>Basic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Basic\Public\ThreadManager.h">
+      <Filter>Basic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Basic\Public\Vector2.h">
+      <Filter>Basic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Basic\Public\Vector3.h">
+      <Filter>Basic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Basic\Public\WindowUtility.h">
+      <Filter>Basic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Public\ActiveVector.h">
+      <Filter>Common\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Public\AllocationPolicy.h">
+      <Filter>Common\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Public\Allocator.h">
+      <Filter>Common\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Public\BasicString.h">
+      <Filter>Common\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Public\CAllocationPolicy.h">
+      <Filter>Common\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Public\CharacterUtilities.h">
+      <Filter>Common\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Public\Common.h">
+      <Filter>Common\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Public\HashMap.h">
+      <Filter>Common\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Public\List.h">
+      <Filter>Common\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Public\ListenerHolder.h">
+      <Filter>Common\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Public\Map.h">
+      <Filter>Common\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Public\ReferenceCounted.h">
+      <Filter>Common\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Public\SecondaryCommon.h">
+      <Filter>Common\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Public\Singleton.h">
+      <Filter>Common\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Public\SmallObjectAllocationPolicy.h">
+      <Filter>Common\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Public\StringUtility.h">
+      <Filter>Common\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Public\Utility.h">
+      <Filter>Common\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Public\ValueTypes.h">
+      <Filter>Common\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Public\Vector.h">
+      <Filter>Common\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Basic\Public\ArgumentsParser.h">
+      <Filter>Basic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Private\ComponentManager.h">
+      <Filter>Core\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Private\FreeImageInclude.h">
+      <Filter>Core\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Private\GameObject.h">
+      <Filter>Core\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Private\ScriptSystem.h">
+      <Filter>Core\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Private\Statistics.h">
+      <Filter>Core\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Private\TinyXMLInclude.h">
+      <Filter>Core\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Private\Scene.h">
+      <Filter>Core\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Private\SceneAllocationPolicy.h">
+      <Filter>Core\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Private\Transform.h">
+      <Filter>Core\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Public\AndroidSystem.h">
+      <Filter>Core\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Public\Component.h">
+      <Filter>Core\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Public\Core.h">
+      <Filter>Core\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Public\Exception.h">
+      <Filter>Core\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Public\FrameStats.h">
+      <Filter>Core\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Public\IGameObject.h">
+      <Filter>Core\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Public\Image.h">
+      <Filter>Core\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Public\IPlugin.h">
+      <Filter>Core\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Public\IResourcesFactory.h">
+      <Filter>Core\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Public\IScene.h">
+      <Filter>Core\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Public\ISerializable.h">
+      <Filter>Core\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Public\ITransform.h">
+      <Filter>Core\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Public\Log.h">
+      <Filter>Core\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Public\NativeWindow.h">
+      <Filter>Core\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Public\PluginManager.h">
+      <Filter>Core\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Public\Resource.h">
+      <Filter>Core\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Public\ResourcesManager.h">
+      <Filter>Core\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Public\Renderer\CompositeResourcesManager.h">
+      <Filter>Core\Public\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Public\Renderer\FragmentGPUProgramResourcesManager.h">
+      <Filter>Core\Public\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Public\Renderer\GPUParamDefinition.h">
+      <Filter>Core\Public\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Public\Renderer\GPUProgramResourcesManager.h">
+      <Filter>Core\Public\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Public\Renderer\ICamera.h">
+      <Filter>Core\Public\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Public\Renderer\IComposite.h">
+      <Filter>Core\Public\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Public\Renderer\ICompositePass.h">
+      <Filter>Core\Public\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Public\Renderer\ICompositeResourcesFactory.h">
+      <Filter>Core\Public\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Public\Renderer\IGPUProgram.h">
+      <Filter>Core\Public\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Public\Renderer\IGPUProgramResourcesFactory.h">
+      <Filter>Core\Public\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Public\Renderer\IGPUProgramUsage.h">
+      <Filter>Core\Public\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Public\Renderer\IMaterial.h">
+      <Filter>Core\Public\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Public\Renderer\IMaterialResourcesFactory.h">
+      <Filter>Core\Public\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Public\Renderer\IMesh.h">
+      <Filter>Core\Public\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Public\Renderer\IMeshResourcesFactory.h">
+      <Filter>Core\Public\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Public\Renderer\IMovie.h">
+      <Filter>Core\Public\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Public\Renderer\IMovieManager.h">
+      <Filter>Core\Public\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Public\Renderer\IPass.h">
+      <Filter>Core\Public\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Public\Renderer\IRenderEngine.h">
+      <Filter>Core\Public\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Public\Renderer\IRenderer.h">
+      <Filter>Core\Public\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Public\Renderer\IRenderTarget.h">
+      <Filter>Core\Public\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Public\Renderer\IRenderWindow.h">
+      <Filter>Core\Public\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Public\Renderer\ITexture.h">
+      <Filter>Core\Public\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Public\Renderer\ITextureResourcesFactory.h">
+      <Filter>Core\Public\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Public\Renderer\IViewPort.h">
+      <Filter>Core\Public\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Public\Renderer\MaterialResourcesManager.h">
+      <Filter>Core\Public\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Public\Renderer\TextureResourcesManager.h">
+      <Filter>Core\Public\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Public\Renderer\VertexGPUProgramResourcesManager.h">
+      <Filter>Core\Public\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Public\Renderer\MeshResourcesManager.h">
+      <Filter>Core\Public\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Public\Renderer\Vertex.h">
+      <Filter>Core\Public\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Reflection\Public\Parameter.h">
+      <Filter>Reflection\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Reflection\Public\ConstructorType.h">
+      <Filter>Reflection\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Reflection\Private\ImplementConstructorType.h">
+      <Filter>Reflection\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="ReflectionTool\Private\MetaConstructor.h">
+      <Filter>ReflectionTool\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DRenderer\Private\Camera.h">
+      <Filter>D3DRenderer\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DRenderer\Private\Composite.h">
+      <Filter>D3DRenderer\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DRenderer\Private\CompositePass.h">
+      <Filter>D3DRenderer\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DRenderer\Private\CompositeResourcesFactory.h">
+      <Filter>D3DRenderer\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DRenderer\Private\DirectXInclude.h">
+      <Filter>D3DRenderer\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DRenderer\Private\FBXInclude.h">
+      <Filter>D3DRenderer\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DRenderer\Private\FragmentGPUProgram.h">
+      <Filter>D3DRenderer\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DRenderer\Private\GPUProgram.h">
+      <Filter>D3DRenderer\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DRenderer\Private\GPUProgramResourcesFactory.h">
+      <Filter>D3DRenderer\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DRenderer\Private\GPUProgramUsage.h">
+      <Filter>D3DRenderer\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DRenderer\Private\JSONCPPInclude.h">
+      <Filter>D3DRenderer\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DRenderer\Private\Material.h">
+      <Filter>D3DRenderer\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DRenderer\Private\MaterialResourcesFactory.h">
+      <Filter>D3DRenderer\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DRenderer\Private\Mesh.h">
+      <Filter>D3DRenderer\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DRenderer\Private\MeshBasicShapes.h">
+      <Filter>D3DRenderer\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DRenderer\Private\MeshResourcesFactory.h">
+      <Filter>D3DRenderer\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DRenderer\Private\Movie.h">
+      <Filter>D3DRenderer\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DRenderer\Private\MovieManager.h">
+      <Filter>D3DRenderer\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DRenderer\Private\Pass.h">
+      <Filter>D3DRenderer\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DRenderer\Private\RenderEngine.h">
+      <Filter>D3DRenderer\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DRenderer\Private\Renderer.h">
+      <Filter>D3DRenderer\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DRenderer\Private\RendererCommon.h">
+      <Filter>D3DRenderer\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DRenderer\Private\RenderTarget.h">
+      <Filter>D3DRenderer\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DRenderer\Private\RenderTargetTexture.h">
+      <Filter>D3DRenderer\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DRenderer\Private\RenderTargetView.h">
+      <Filter>D3DRenderer\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DRenderer\Private\RenderWindow.h">
+      <Filter>D3DRenderer\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DRenderer\Private\Surface.h">
+      <Filter>D3DRenderer\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DRenderer\Private\SwapChain.h">
+      <Filter>D3DRenderer\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DRenderer\Private\Texture.h">
+      <Filter>D3DRenderer\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DRenderer\Private\TextureResourcesFactory.h">
+      <Filter>D3DRenderer\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DRenderer\Private\VertexGPUProgram.h">
+      <Filter>D3DRenderer\Private</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Core\Core.Rules.cs">
+      <Filter>Core</Filter>
+    </None>
+    <None Include="Launcher\Launcher.Rules.cs">
+      <Filter>Launcher</Filter>
+    </None>
+    <None Include="CWrapper\CWrapper.Rules.cs">
+      <Filter>CWrapper</Filter>
+    </None>
+    <None Include="D3DRenderer\D3DRenderer.Rules.cs">
+      <Filter>D3DRenderer</Filter>
+    </None>
+    <None Include="ReflectionTool\ReflectionTool.Rules.cs">
+      <Filter>ReflectionTool</Filter>
+    </None>
+    <None Include="Reflection\Reflection.Rules.cs">
+      <Filter>Reflection</Filter>
+    </None>
+    <None Include="Basic\Basic.Rules.cs">
+      <Filter>Basic</Filter>
+    </None>
+    <None Include="Common\Common.Rules.cs">
+      <Filter>Common</Filter>
+    </None>
+  </ItemGroup>
+</Project>

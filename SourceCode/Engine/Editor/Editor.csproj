@@ -1,0 +1,372 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{364C9268-3914-4E9E-A649-F9660309411E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>IE</RootNamespace>
+    <AssemblyName>Editor</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\Intermediate\Editor\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\Intermediate\Editor\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>IE.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controls\PropertyObjectConverter.cs" />
+    <Compile Include="Docking\AutoHideStripBase.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Docking\DockAreasEditor.cs" />
+    <Compile Include="Docking\DockContent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Docking\DockContentCollection.cs" />
+    <Compile Include="Docking\DockContentEventArgs.cs" />
+    <Compile Include="Docking\DockContentHandler.cs" />
+    <Compile Include="Docking\DockOutlineBase.cs" />
+    <Compile Include="Docking\DockPane.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Docking\DockPane.SplitterControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Docking\DockPaneCaptionBase.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Docking\DockPaneCollection.cs" />
+    <Compile Include="Docking\DockPanel.Appearance.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Docking\DockPanel.AutoHideWindow.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Docking\DockPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Docking\DockPanel.DockDragHandler.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Docking\DockPanel.DragHandler.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Docking\DockPanel.FocusManager.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Docking\DockPanel.MdiClientController.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Docking\DockPanel.Persistor.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Docking\DockPanel.SplitterDragHandler.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Docking\DockPanelExtender.cs" />
+    <Compile Include="Docking\DockPanelSkin.cs" />
+    <Compile Include="Docking\DockPaneStripBase.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Docking\DockWindow.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Docking\DockWindow.SplitterControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Docking\DockWindowCollection.cs" />
+    <Compile Include="Docking\DragForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Docking\DummyControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Docking\Enums.cs" />
+    <Compile Include="Docking\FloatWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Docking\FloatWindowCollection.cs" />
+    <Compile Include="Docking\Helpers\DockHelper.cs" />
+    <Compile Include="Docking\Helpers\DrawHelper.cs" />
+    <Compile Include="Docking\Helpers\ResourceHelper.cs" />
+    <Compile Include="Docking\Helpers\Win32Helper.cs" />
+    <Compile Include="Docking\InertButtonBase.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Docking\Interfaces.cs" />
+    <Compile Include="Docking\Localization.cs" />
+    <Compile Include="Docking\Measures.cs" />
+    <Compile Include="Docking\NestedDockingStatus.cs" />
+    <Compile Include="Docking\NestedPaneCollection.cs" />
+    <Compile Include="Docking\Skins\DockPanelSkinBuilder.cs" />
+    <Compile Include="Docking\Skins\Style.cs" />
+    <Compile Include="Docking\SplitterBase.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Docking\Strings.Designer.cs" />
+    <Compile Include="Docking\VisibleNestedPaneCollection.cs" />
+    <Compile Include="Docking\VS2005AutoHideStrip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Docking\VS2005DockPaneCaption.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Docking\VS2005DockPaneStrip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Docking\Win32\Enums.cs" />
+    <Compile Include="Docking\Win32\NativeMethods.cs" />
+    <Compile Include="ConsoleWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsoleWindow.Designer.cs">
+      <DependentUpon>ConsoleWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\DockableWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InitializeWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InitializeWindow.Designer.cs">
+      <DependentUpon>InitializeWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainWindow.Designer.cs">
+      <DependentUpon>MainWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PropertyWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PropertyWindow.Designer.cs">
+      <DependentUpon>PropertyWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\RenderView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\RenderView.Designer.cs">
+      <DependentUpon>RenderView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\RenderWindowBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Base\RenderWindowBase.Designer.cs">
+      <DependentUpon>RenderWindowBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SceneViewWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SceneViewWindow.Designer.cs">
+      <DependentUpon>SceneViewWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Base\DockableWindow.resx">
+      <DependentUpon>DockableWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsoleWindow.resx">
+      <DependentUpon>ConsoleWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InitializeWindow.resx">
+      <DependentUpon>InitializeWindow.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainWindow.resx">
+      <DependentUpon>MainWindow.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PropertyWindow.resx">
+      <DependentUpon>PropertyWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\RenderView.resx">
+      <DependentUpon>RenderView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\RenderWindowBase.resx">
+      <DependentUpon>RenderWindowBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SceneViewWindow.resx">
+      <DependentUpon>SceneViewWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Strings.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DockIndicator_PaneDiamond.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DockIndicator_PaneDiamond_Bottom.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dockindicator_PaneDiamond_Fill.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DockIndicator_PaneDiamond_Hotspot.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DockIndicator_PaneDiamond_HotspotIndex.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DockIndicator_PaneDiamond_Left.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DockIndicator_PaneDiamond_Right.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DockIndicator_PaneDiamond_Top.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DockIndicator_PanelBottom.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DockIndicator_PanelBottom_Active.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DockIndicator_PanelFill.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DockIndicator_PanelFill_Active.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DockIndicator_PanelLeft.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DockIndicator_PanelLeft_Active.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DockIndicator_PanelRight.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DockIndicator_PanelRight_Active.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DockIndicator_PanelTop.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DockIndicator_PanelTop_Active.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DockPane_AutoHide.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DockPane_Close.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DockPane_Dock.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DockPane_Option.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DockPane_OptionOverflow.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DockIndicator_Panel_Fill.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ManagedWrapper\ManagedWrapper.csproj">
+      <Project>{fd107d05-14cc-4d37-bc48-845511bd679d}</Project>
+      <Name>ManagedWrapper</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PostBuildEvent>copy "$(TargetPath)" "$(SolutionDir)Binaries\$(TargetName)$(TargetExt)"</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

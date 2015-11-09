@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{79C83DAE-9259-405F-AA47-9F9033631FFA}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Frontend</RootNamespace>
+    <AssemblyName>TestConsole</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\Binaries</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Externalconsole>true</Externalconsole>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\Binaries</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Externalconsole>true</Externalconsole>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="System\BuildRules.cs" />
+    <Compile Include="System\BuildSystem.cs" />
+    <Compile Include="System\CommandLineProcess.cs" />
+    <Compile Include="System\Compiler.cs" />
+    <Compile Include="System\FilesMetaDataGenerator.cs" />
+    <Compile Include="System\SourceBuilder.cs" />
+    <Compile Include="ProjectFile\CSProjectFileGenerator.cs" />
+    <Compile Include="ProjectFile\MSBuildProjectFileGenerator.cs" />
+    <Compile Include="ProjectFile\ProjectFileGenerator.cs" />
+    <Compile Include="ProjectFile\VCProjectFileGenerator.cs" />
+    <Compile Include="Utilites\ConsoleHelper.cs" />
+    <Compile Include="Utilites\Extensions.cs" />
+    <Compile Include="Utilites\FileSystemUtilites.cs" />
+    <Compile Include="Utilites\LogHelper.cs" />
+    <Compile Include="Utilites\EnvironmentHelper.cs" />
+    <Compile Include="System\MSBuildProcess.cs" />
+    <Compile Include="System\BuildProcess.cs" />
+    <Compile Include="System\MonoBuildProcess.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ProjectExtensions>
+    <MonoDevelop>
+      <Properties>
+        <Deployment.LinuxDeployData generateScript="False" />
+      </Properties>
+    </MonoDevelop>
+  </ProjectExtensions>
+  <ItemGroup>
+    <Folder Include="System\" />
+    <Folder Include="ProjectFile\" />
+    <Folder Include="Properties\" />
+    <Folder Include="Utilites\" />
+  </ItemGroup>
+</Project>

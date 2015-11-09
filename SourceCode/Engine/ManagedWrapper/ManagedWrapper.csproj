@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FD107D05-14CC-4D37-BC48-845511BD679D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ManagedWrapper</RootNamespace>
+    <AssemblyName>ManagedWrapper</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\Intermediate\ManagedWrapper\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\Intermediate\ManagedWrapper\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BoundingBox.cs" />
+    <Compile Include="Camera.cs" />
+    <Compile Include="Component.cs" />
+    <Compile Include="Composite.cs" />
+    <Compile Include="CompositePass.cs" />
+    <Compile Include="CompositeResourcesManager.cs" />
+    <Compile Include="Constants.cs" />
+    <Compile Include="Core.cs" />
+    <Compile Include="FrameStats.cs" />
+    <Compile Include="GameObject.cs" />
+    <Compile Include="GPUProgram.cs" />
+    <Compile Include="GPUProgramUsage.cs" />
+    <Compile Include="Image.cs" />
+    <Compile Include="Log.cs" />
+    <Compile Include="Material.cs" />
+    <Compile Include="MaterialResourcesManager.cs" />
+    <Compile Include="Matrix4.cs" />
+    <Compile Include="Mesh.cs" />
+    <Compile Include="MeshResourcesManager.cs" />
+    <Compile Include="Pass.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RenderEngine.cs" />
+    <Compile Include="Renderer.cs" />
+    <Compile Include="RenderTarget.cs" />
+    <Compile Include="RenderWindow.cs" />
+    <Compile Include="ResourcesManager.cs" />
+    <Compile Include="Scene.cs" />
+    <Compile Include="Texture.cs" />
+    <Compile Include="TextureResourcesManager.cs" />
+    <Compile Include="Transform.cs" />
+    <Compile Include="Vector2.cs" />
+    <Compile Include="Colour.cs" />
+    <Compile Include="Vector3.cs" />
+    <Compile Include="WindowUtility.cs" />
+    <Compile Include="WrapperObject.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>copy "$(TargetPath)" "$(SolutionDir)Binaries\$(TargetName)$(TargetExt)"</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

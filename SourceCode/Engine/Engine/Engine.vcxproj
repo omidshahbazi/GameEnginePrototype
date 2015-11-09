@@ -1,0 +1,494 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Basic\Private\ArgumentsParser.cpp" />
+    <ClCompile Include="Basic\Private\BoundingBox.cpp" />
+    <ClCompile Include="Basic\Private\BoundingSphere.cpp" />
+    <ClCompile Include="Basic\Private\CMath.cpp" />
+    <ClCompile Include="Basic\Private\Colour.cpp" />
+    <ClCompile Include="Basic\Private\CTime.cpp" />
+    <ClCompile Include="Basic\Private\File.cpp" />
+    <ClCompile Include="Basic\Private\FileIO.cpp" />
+    <ClCompile Include="Basic\Private\Line3D.cpp" />
+    <ClCompile Include="Basic\Private\Math.cpp" />
+    <ClCompile Include="Basic\Private\Matrix4.cpp" />
+    <ClCompile Include="Basic\Private\Object.cpp" />
+    <ClCompile Include="Basic\Private\StringConverter.cpp" />
+    <ClCompile Include="Basic\Private\SystemTime.cpp" />
+    <ClCompile Include="Basic\Private\Thread.cpp" />
+    <ClCompile Include="Basic\Private\ThreadManager.cpp" />
+    <ClCompile Include="Basic\Private\Vector2.cpp" />
+    <ClCompile Include="Basic\Private\Vector3.cpp" />
+    <ClCompile Include="Basic\Private\WindowUtility.cpp" />
+    <ClCompile Include="Common\Private\AllocationPolicy.cpp" />
+    <ClCompile Include="Common\Private\BasicString.cpp" />
+    <ClCompile Include="Common\Private\CAllocationPolicy.cpp" />
+    <ClCompile Include="Common\Private\ReferenceCounted.cpp" />
+    <ClCompile Include="Common\Private\SmallObjectAllocationPolicy.cpp" />
+    <ClCompile Include="Common\Private\StringUtility.cpp" />
+    <ClCompile Include="Common\Private\Utility.cpp" />
+    <ClCompile Include="Core\Private\AndroidSystem.cpp" />
+    <ClCompile Include="Core\Private\Component.cpp" />
+    <ClCompile Include="Core\Private\ComponentManager.cpp" />
+    <ClCompile Include="Core\Private\Core.cpp" />
+    <ClCompile Include="Core\Private\Exception.cpp" />
+    <ClCompile Include="Core\Private\GameObject.cpp" />
+    <ClCompile Include="Core\Private\Image.cpp" />
+    <ClCompile Include="Core\Private\Log.cpp" />
+    <ClCompile Include="Core\Private\NativeWindow.cpp" />
+    <ClCompile Include="Core\Private\PluginManager.cpp" />
+    <ClCompile Include="Core\Private\Renderer\CompositeResourcesManager.cpp" />
+    <ClCompile Include="Core\Private\Renderer\FragmentGPUProgramResourcesManager.cpp" />
+    <ClCompile Include="Core\Private\Renderer\GPUParamDefinition.cpp" />
+    <ClCompile Include="Core\Private\Renderer\GPUProgramResourcesManager.cpp" />
+    <ClCompile Include="Core\Private\Renderer\MaterialResourcesManager.cpp" />
+    <ClCompile Include="Core\Private\Renderer\MeshResourcesManager.cpp" />
+    <ClCompile Include="Core\Private\Renderer\TextureResourcesManager.cpp" />
+    <ClCompile Include="Core\Private\Renderer\VertexGPUProgramResourcesManager.cpp" />
+    <ClCompile Include="Core\Private\ResourcesManager.cpp" />
+    <ClCompile Include="Core\Private\Scene.cpp" />
+    <ClCompile Include="Core\Private\SceneAllocationPolicy.cpp" />
+    <ClCompile Include="Core\Private\ScriptSystem.cpp" />
+    <ClCompile Include="Core\Private\Statistics.cpp" />
+    <ClCompile Include="Core\Private\Transform.cpp" />
+    <ClCompile Include="CWrapper\Private\CameraAPI.cpp" />
+    <ClCompile Include="CWrapper\Private\ComponentAPI.cpp" />
+    <ClCompile Include="CWrapper\Private\CompositeAPI.cpp" />
+    <ClCompile Include="CWrapper\Private\CompositeResourcesManagerAPI.cpp" />
+    <ClCompile Include="CWrapper\Private\CoreAPI.cpp" />
+    <ClCompile Include="CWrapper\Private\GameObjectAPI.cpp" />
+    <ClCompile Include="CWrapper\Private\GPUProgramUsageAPI.cpp" />
+    <ClCompile Include="CWrapper\Private\LogAPI.cpp" />
+    <ClCompile Include="CWrapper\Private\MaterialAPI.cpp" />
+    <ClCompile Include="CWrapper\Private\MaterialResourcesManagerAPI.cpp" />
+    <ClCompile Include="CWrapper\Private\MeshResourcesManagerAPI.cpp" />
+    <ClCompile Include="CWrapper\Private\PassAPI.cpp" />
+    <ClCompile Include="CWrapper\Private\RenderEngineAPI.cpp" />
+    <ClCompile Include="CWrapper\Private\RendererAPI.cpp" />
+    <ClCompile Include="CWrapper\Private\RenderTargetAPI.cpp" />
+    <ClCompile Include="CWrapper\Private\RenderWindowAPI.cpp" />
+    <ClCompile Include="CWrapper\Private\ResourcesManagerAPI.cpp" />
+    <ClCompile Include="CWrapper\Private\SceneAPI.cpp" />
+    <ClCompile Include="CWrapper\Private\TextureAPI.cpp" />
+    <ClCompile Include="CWrapper\Private\TextureResourcesManagerAPI.cpp" />
+    <ClCompile Include="CWrapper\Private\TransformAPI.cpp" />
+    <ClCompile Include="CWrapper\Private\Utilities.cpp" />
+    <ClCompile Include="CWrapper\Private\WindowUtilityAPI.cpp" />
+    <ClCompile Include="D3DRenderer\Private\Camera.cpp" />
+    <ClCompile Include="D3DRenderer\Private\CompositePass.cpp" />
+    <ClCompile Include="D3DRenderer\Private\FragmentGPUProgram.cpp" />
+    <ClCompile Include="D3DRenderer\Private\GPUProgram.cpp" />
+    <ClCompile Include="D3DRenderer\Private\GPUProgramUsage.cpp" />
+    <ClCompile Include="D3DRenderer\Private\Main.cpp" />
+    <ClCompile Include="D3DRenderer\Private\Material.cpp" />
+    <ClCompile Include="D3DRenderer\Private\Mesh.cpp" />
+    <ClCompile Include="D3DRenderer\Private\Movie.cpp" />
+    <ClCompile Include="D3DRenderer\Private\MovieManager.cpp" />
+    <ClCompile Include="D3DRenderer\Private\Pass.cpp" />
+    <ClCompile Include="D3DRenderer\Private\RenderEngine.cpp" />
+    <ClCompile Include="D3DRenderer\Private\Renderer.cpp" />
+    <ClCompile Include="D3DRenderer\Private\RenderTargetTexture.cpp" />
+    <ClCompile Include="D3DRenderer\Private\RenderWindow.cpp" />
+    <ClCompile Include="D3DRenderer\Private\Surface.cpp" />
+    <ClCompile Include="D3DRenderer\Private\SwapChain.cpp" />
+    <ClCompile Include="D3DRenderer\Private\Texture.cpp" />
+    <ClCompile Include="D3DRenderer\Private\VertexGPUProgram.cpp" />
+    <ClCompile Include="GUISystem\Private\Button.cpp" />
+    <ClCompile Include="GUISystem\Private\Font.cpp" />
+    <ClCompile Include="GUISystem\Private\GUIScene.cpp" />
+    <ClCompile Include="GUISystem\Private\GUISystem.cpp" />
+    <ClCompile Include="GUISystem\Private\Helper.cpp" />
+    <ClCompile Include="GUISystem\Private\Label.cpp" />
+    <ClCompile Include="GUISystem\Private\Main.cpp" />
+    <ClCompile Include="GUISystem\Private\ProgressBar.cpp" />
+    <ClCompile Include="GUISystem\Private\TextBox.cpp" />
+    <ClCompile Include="Input\Private\InputManager.cpp" />
+    <ClCompile Include="Input\Private\Main.cpp" />
+    <ClCompile Include="Launcher\Private\Benchmark.cpp" />
+    <ClCompile Include="Launcher\Private\Main.cpp" />
+    <ClCompile Include="Physics\Private\Body.cpp" />
+    <ClCompile Include="Physics\Private\BoxShape.cpp" />
+    <ClCompile Include="Physics\Private\CircleShape.cpp" />
+    <ClCompile Include="Physics\Private\Contact.cpp" />
+    <ClCompile Include="Physics\Private\ContactImpulse.cpp" />
+    <ClCompile Include="Physics\Private\ContactListener.cpp" />
+    <ClCompile Include="Physics\Private\DistanceJoint.cpp" />
+    <ClCompile Include="Physics\Private\EdgeShape.cpp" />
+    <ClCompile Include="Physics\Private\Fixture.cpp" />
+    <ClCompile Include="Physics\Private\GearJoint.cpp" />
+    <ClCompile Include="Physics\Private\Main.cpp" />
+    <ClCompile Include="Physics\Private\PhysicsEngine.cpp" />
+    <ClCompile Include="Physics\Private\PhysicsScene.cpp" />
+    <ClCompile Include="Physics\Private\PolygonShape.cpp" />
+    <ClCompile Include="Physics\Private\PrismaticJoint.cpp" />
+    <ClCompile Include="Physics\Private\PulleyJoint.cpp" />
+    <ClCompile Include="Physics\Private\RevoluteJoint.cpp" />
+    <ClCompile Include="Physics\Private\RopeJoint.cpp" />
+    <ClCompile Include="Physics\Private\WeldJoint.cpp" />
+    <ClCompile Include="Physics\Private\WheelJoint.cpp" />
+    <ClCompile Include="ReflectionTool\Private\CodePageParser.cpp" />
+    <ClCompile Include="ReflectionTool\Private\HeaderParser.cpp" />
+    <ClCompile Include="ReflectionTool\Private\Main.cpp" />
+    <ClCompile Include="ReflectionTool\Private\ReflectionGenerator.cpp" />
+    <ClCompile Include="ReflectionTool\Private\Token.cpp" />
+    <ClCompile Include="Reflection\Private\ConstructorType.cpp" />
+    <ClCompile Include="Reflection\Private\DataStructureType.cpp" />
+    <ClCompile Include="Reflection\Private\Enum.cpp" />
+    <ClCompile Include="Reflection\Private\EnumType.cpp" />
+    <ClCompile Include="Reflection\Private\FunctionType.cpp" />
+    <ClCompile Include="Reflection\Private\ImplementConstructorType.cpp" />
+    <ClCompile Include="Reflection\Private\ImplementDataStructureType.cpp" />
+    <ClCompile Include="Reflection\Private\ImplementEnumType.cpp" />
+    <ClCompile Include="Reflection\Private\ImplementFunctionType.cpp" />
+    <ClCompile Include="Reflection\Private\ImplementPropertyType.cpp" />
+    <ClCompile Include="Reflection\Private\Runtime.cpp" />
+    <ClCompile Include="Reflection\Private\RuntimeImplementation.cpp" />
+    <ClCompile Include="Reflection\Private\Type.cpp" />
+    <ClCompile Include="SoundSystem\Private\Main.cpp" />
+    <ClCompile Include="SoundSystem\Private\Sound.cpp" />
+    <ClCompile Include="SoundSystem\Private\SoundGroup.cpp" />
+    <ClCompile Include="SoundSystem\Private\SoundSystem.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Basic\Public\AnyDataType.h" />
+    <ClInclude Include="Basic\Public\ArgumentsParser.h" />
+    <ClInclude Include="Basic\Public\BoundingBox.h" />
+    <ClInclude Include="Basic\Public\BoundingSphere.h" />
+    <ClInclude Include="Basic\Public\CMath.h" />
+    <ClInclude Include="Basic\Public\Colour.h" />
+    <ClInclude Include="Basic\Public\CTime.h" />
+    <ClInclude Include="Basic\Public\File.h" />
+    <ClInclude Include="Basic\Public\FileIO.h" />
+    <ClInclude Include="Basic\Public\Line3D.h" />
+    <ClInclude Include="Basic\Public\Matrix4.h" />
+    <ClInclude Include="Basic\Public\Object.h" />
+    <ClInclude Include="Basic\Public\StringConverter.h" />
+    <ClInclude Include="Basic\Public\SystemTime.h" />
+    <ClInclude Include="Basic\Public\Thread.h" />
+    <ClInclude Include="Basic\Public\ThreadManager.h" />
+    <ClInclude Include="Basic\Public\Vector2.h" />
+    <ClInclude Include="Basic\Public\Vector3.h" />
+    <ClInclude Include="Basic\Public\WindowUtility.h" />
+    <ClInclude Include="Common\Public\ActiveVector.h" />
+    <ClInclude Include="Common\Public\AllocationPolicy.h" />
+    <ClInclude Include="Common\Public\Allocator.h" />
+    <ClInclude Include="Common\Public\BasicString.h" />
+    <ClInclude Include="Common\Public\CAllocationPolicy.h" />
+    <ClInclude Include="Common\Public\CharacterUtilities.h" />
+    <ClInclude Include="Common\Public\Common.h" />
+    <ClInclude Include="Common\Public\HashMap.h" />
+    <ClInclude Include="Common\Public\List.h" />
+    <ClInclude Include="Common\Public\ListenerHolder.h" />
+    <ClInclude Include="Common\Public\Map.h" />
+    <ClInclude Include="Common\Public\ReferenceCounted.h" />
+    <ClInclude Include="Common\Public\SecondaryCommon.h" />
+    <ClInclude Include="Common\Public\Singleton.h" />
+    <ClInclude Include="Common\Public\SmallObjectAllocationPolicy.h" />
+    <ClInclude Include="Common\Public\StringUtility.h" />
+    <ClInclude Include="Common\Public\Utility.h" />
+    <ClInclude Include="Common\Public\ValueTypes.h" />
+    <ClInclude Include="Common\Public\Vector.h" />
+    <ClInclude Include="Core\Private\ComponentManager.h" />
+    <ClInclude Include="Core\Private\FreeImageInclude.h" />
+    <ClInclude Include="Core\Private\GameObject.h" />
+    <ClInclude Include="Core\Private\Scene.h" />
+    <ClInclude Include="Core\Private\SceneAllocationPolicy.h" />
+    <ClInclude Include="Core\Private\ScriptSystem.h" />
+    <ClInclude Include="Core\Private\Statistics.h" />
+    <ClInclude Include="Core\Private\TinyXMLInclude.h" />
+    <ClInclude Include="Core\Private\Transform.h" />
+    <ClInclude Include="Core\Public\AndroidSystem.h" />
+    <ClInclude Include="Core\Public\Component.h" />
+    <ClInclude Include="Core\Public\Core.h" />
+    <ClInclude Include="Core\Public\Exception.h" />
+    <ClInclude Include="Core\Public\FrameStats.h" />
+    <ClInclude Include="Core\Public\IGameObject.h" />
+    <ClInclude Include="Core\Public\Image.h" />
+    <ClInclude Include="Core\Public\IPlugin.h" />
+    <ClInclude Include="Core\Public\IResourcesFactory.h" />
+    <ClInclude Include="Core\Public\IScene.h" />
+    <ClInclude Include="Core\Public\ISerializable.h" />
+    <ClInclude Include="Core\Public\ITransform.h" />
+    <ClInclude Include="Core\Public\Log.h" />
+    <ClInclude Include="Core\Public\NativeWindow.h" />
+    <ClInclude Include="Core\Public\PluginManager.h" />
+    <ClInclude Include="Core\Public\Renderer\CompositeResourcesManager.h" />
+    <ClInclude Include="Core\Public\Renderer\FragmentGPUProgramResourcesManager.h" />
+    <ClInclude Include="Core\Public\Renderer\GPUParamDefinition.h" />
+    <ClInclude Include="Core\Public\Renderer\GPUProgramResourcesManager.h" />
+    <ClInclude Include="Core\Public\Renderer\ICamera.h" />
+    <ClInclude Include="Core\Public\Renderer\IComposite.h" />
+    <ClInclude Include="Core\Public\Renderer\ICompositePass.h" />
+    <ClInclude Include="Core\Public\Renderer\ICompositeResourcesFactory.h" />
+    <ClInclude Include="Core\Public\Renderer\IGPUProgram.h" />
+    <ClInclude Include="Core\Public\Renderer\IGPUProgramResourcesFactory.h" />
+    <ClInclude Include="Core\Public\Renderer\IGPUProgramUsage.h" />
+    <ClInclude Include="Core\Public\Renderer\IMaterial.h" />
+    <ClInclude Include="Core\Public\Renderer\IMaterialResourcesFactory.h" />
+    <ClInclude Include="Core\Public\Renderer\IMesh.h" />
+    <ClInclude Include="Core\Public\Renderer\IMeshResourcesFactory.h" />
+    <ClInclude Include="Core\Public\Renderer\IMovie.h" />
+    <ClInclude Include="Core\Public\Renderer\IMovieManager.h" />
+    <ClInclude Include="Core\Public\Renderer\IPass.h" />
+    <ClInclude Include="Core\Public\Renderer\IRenderEngine.h" />
+    <ClInclude Include="Core\Public\Renderer\IRenderer.h" />
+    <ClInclude Include="Core\Public\Renderer\IRenderTarget.h" />
+    <ClInclude Include="Core\Public\Renderer\IRenderWindow.h" />
+    <ClInclude Include="Core\Public\Renderer\ITexture.h" />
+    <ClInclude Include="Core\Public\Renderer\ITextureResourcesFactory.h" />
+    <ClInclude Include="Core\Public\Renderer\IViewPort.h" />
+    <ClInclude Include="Core\Public\Renderer\MaterialResourcesManager.h" />
+    <ClInclude Include="Core\Public\Renderer\MeshResourcesManager.h" />
+    <ClInclude Include="Core\Public\Renderer\TextureResourcesManager.h" />
+    <ClInclude Include="Core\Public\Renderer\Vertex.h" />
+    <ClInclude Include="Core\Public\Renderer\VertexGPUProgramResourcesManager.h" />
+    <ClInclude Include="Core\Public\Resource.h" />
+    <ClInclude Include="Core\Public\ResourcesManager.h" />
+    <ClInclude Include="CWrapper\Public\CameraAPI.h" />
+    <ClInclude Include="CWrapper\Public\ComponentAPI.h" />
+    <ClInclude Include="CWrapper\Public\CompositeAPI.h" />
+    <ClInclude Include="CWrapper\Public\CompositeResourcesManagerAPI.h" />
+    <ClInclude Include="CWrapper\Public\CoreAPI.h" />
+    <ClInclude Include="CWrapper\Public\GameObjectAPI.h" />
+    <ClInclude Include="CWrapper\Public\GPUProgramUsageAPI.h" />
+    <ClInclude Include="CWrapper\Public\LogAPI.h" />
+    <ClInclude Include="CWrapper\Public\MaterialAPI.h" />
+    <ClInclude Include="CWrapper\Public\MaterialResourcesManagerAPI.h" />
+    <ClInclude Include="CWrapper\Public\MeshResourcesManagerAPI.h" />
+    <ClInclude Include="CWrapper\Public\PassAPI.h" />
+    <ClInclude Include="CWrapper\Public\RenderEngineAPI.h" />
+    <ClInclude Include="CWrapper\Public\RendererAPI.h" />
+    <ClInclude Include="CWrapper\Public\RenderTargetAPI.h" />
+    <ClInclude Include="CWrapper\Public\RenderWindowAPI.h" />
+    <ClInclude Include="CWrapper\Public\ResourcesManagerAPI.h" />
+    <ClInclude Include="CWrapper\Public\SceneAPI.h" />
+    <ClInclude Include="CWrapper\Public\TextureAPI.h" />
+    <ClInclude Include="CWrapper\Public\TextureResourcesManagerAPI.h" />
+    <ClInclude Include="CWrapper\Public\TransformAPI.h" />
+    <ClInclude Include="CWrapper\Public\Utilities.h" />
+    <ClInclude Include="CWrapper\Public\WindowUtilityAPI.h" />
+    <ClInclude Include="D3DRenderer\Private\Camera.h" />
+    <ClInclude Include="D3DRenderer\Private\Composite.h" />
+    <ClInclude Include="D3DRenderer\Private\CompositePass.h" />
+    <ClInclude Include="D3DRenderer\Private\CompositeResourcesFactory.h" />
+    <ClInclude Include="D3DRenderer\Private\DirectXInclude.h" />
+    <ClInclude Include="D3DRenderer\Private\FBXInclude.h" />
+    <ClInclude Include="D3DRenderer\Private\FragmentGPUProgram.h" />
+    <ClInclude Include="D3DRenderer\Private\GPUProgram.h" />
+    <ClInclude Include="D3DRenderer\Private\GPUProgramResourcesFactory.h" />
+    <ClInclude Include="D3DRenderer\Private\GPUProgramUsage.h" />
+    <ClInclude Include="D3DRenderer\Private\JSONCPPInclude.h" />
+    <ClInclude Include="D3DRenderer\Private\Material.h" />
+    <ClInclude Include="D3DRenderer\Private\MaterialResourcesFactory.h" />
+    <ClInclude Include="D3DRenderer\Private\Mesh.h" />
+    <ClInclude Include="D3DRenderer\Private\MeshBasicShapes.h" />
+    <ClInclude Include="D3DRenderer\Private\MeshResourcesFactory.h" />
+    <ClInclude Include="D3DRenderer\Private\Movie.h" />
+    <ClInclude Include="D3DRenderer\Private\MovieManager.h" />
+    <ClInclude Include="D3DRenderer\Private\Pass.h" />
+    <ClInclude Include="D3DRenderer\Private\RenderEngine.h" />
+    <ClInclude Include="D3DRenderer\Private\Renderer.h" />
+    <ClInclude Include="D3DRenderer\Private\RendererCommon.h" />
+    <ClInclude Include="D3DRenderer\Private\RenderTarget.h" />
+    <ClInclude Include="D3DRenderer\Private\RenderTargetTexture.h" />
+    <ClInclude Include="D3DRenderer\Private\RenderTargetView.h" />
+    <ClInclude Include="D3DRenderer\Private\RenderWindow.h" />
+    <ClInclude Include="D3DRenderer\Private\Surface.h" />
+    <ClInclude Include="D3DRenderer\Private\SwapChain.h" />
+    <ClInclude Include="D3DRenderer\Private\Texture.h" />
+    <ClInclude Include="D3DRenderer\Private\TextureResourcesFactory.h" />
+    <ClInclude Include="D3DRenderer\Private\VertexGPUProgram.h" />
+    <ClInclude Include="GUISystem\Private\Button.h" />
+    <ClInclude Include="GUISystem\Private\Font.h" />
+    <ClInclude Include="GUISystem\Private\FreeTypeInclude.h" />
+    <ClInclude Include="GUISystem\Private\GUIScene.h" />
+    <ClInclude Include="GUISystem\Private\GUISystem.h" />
+    <ClInclude Include="GUISystem\Private\Helper.h" />
+    <ClInclude Include="GUISystem\Private\IRenderable.h" />
+    <ClInclude Include="GUISystem\Private\Label.h" />
+    <ClInclude Include="GUISystem\Private\ProgressBar.h" />
+    <ClInclude Include="GUISystem\Private\TextBox.h" />
+    <ClInclude Include="GUISystem\Public\IButton.h" />
+    <ClInclude Include="GUISystem\Public\IFont.h" />
+    <ClInclude Include="GUISystem\Public\IGUIObject.h" />
+    <ClInclude Include="GUISystem\Public\IGUIScene.h" />
+    <ClInclude Include="GUISystem\Public\IGUISystem.h" />
+    <ClInclude Include="GUISystem\Public\ILabel.h" />
+    <ClInclude Include="GUISystem\Public\IProgressBar.h" />
+    <ClInclude Include="GUISystem\Public\ITextBox.h" />
+    <ClInclude Include="Input\Private\InputManager.h" />
+    <ClInclude Include="Input\Public\IInputManager.h" />
+    <ClInclude Include="Input\Public\KeyCodes.h" />
+    <ClInclude Include="Launcher\Private\LauncherCommon.h" />
+    <ClInclude Include="Physics\Private\Body.h" />
+    <ClInclude Include="Physics\Private\BoxShape.h" />
+    <ClInclude Include="Physics\Private\CircleShape.h" />
+    <ClInclude Include="Physics\Private\Contact.h" />
+    <ClInclude Include="Physics\Private\ContactImpulse.h" />
+    <ClInclude Include="Physics\Private\ContactListener.h" />
+    <ClInclude Include="Physics\Private\DistanceJoint.h" />
+    <ClInclude Include="Physics\Private\EdgeShape.h" />
+    <ClInclude Include="Physics\Private\Fixture.h" />
+    <ClInclude Include="Physics\Private\GearJoint.h" />
+    <ClInclude Include="Physics\Private\PhysicsCommon.h" />
+    <ClInclude Include="Physics\Private\PhysicsEngine.h" />
+    <ClInclude Include="Physics\Private\PhysicsScene.h" />
+    <ClInclude Include="Physics\Private\PolygonShape.h" />
+    <ClInclude Include="Physics\Private\PrismaticJoint.h" />
+    <ClInclude Include="Physics\Private\PulleyJoint.h" />
+    <ClInclude Include="Physics\Private\RevoluteJoint.h" />
+    <ClInclude Include="Physics\Private\RopeJoint.h" />
+    <ClInclude Include="Physics\Private\WeldJoint.h" />
+    <ClInclude Include="Physics\Private\WheelJoint.h" />
+    <ClInclude Include="Physics\Public\IBody.h" />
+    <ClInclude Include="Physics\Public\IBoxShape.h" />
+    <ClInclude Include="Physics\Public\ICircleShape.h" />
+    <ClInclude Include="Physics\Public\IContact.h" />
+    <ClInclude Include="Physics\Public\IContactImpulse.h" />
+    <ClInclude Include="Physics\Public\IDistanceJoint.h" />
+    <ClInclude Include="Physics\Public\IEdgeShape.h" />
+    <ClInclude Include="Physics\Public\IFixture.h" />
+    <ClInclude Include="Physics\Public\IGearJoint.h" />
+    <ClInclude Include="Physics\Public\IJoint.h" />
+    <ClInclude Include="Physics\Public\IPhysicsEngine.h" />
+    <ClInclude Include="Physics\Public\IPhysicsScene.h" />
+    <ClInclude Include="Physics\Public\IPolygonShape.h" />
+    <ClInclude Include="Physics\Public\IPrismaticJoint.h" />
+    <ClInclude Include="Physics\Public\IPulleyJoint.h" />
+    <ClInclude Include="Physics\Public\IRevoluteJoint.h" />
+    <ClInclude Include="Physics\Public\IRopeJoint.h" />
+    <ClInclude Include="Physics\Public\IShape.h" />
+    <ClInclude Include="Physics\Public\IWeldJoint.h" />
+    <ClInclude Include="Physics\Public\IWheelJoint.h" />
+    <ClInclude Include="ReflectionTool\Private\CodePageParser.h" />
+    <ClInclude Include="ReflectionTool\Private\Console.h" />
+    <ClInclude Include="ReflectionTool\Private\Constants.h" />
+    <ClInclude Include="ReflectionTool\Private\HeaderParser.h" />
+    <ClInclude Include="ReflectionTool\Private\MetaConstructor.h" />
+    <ClInclude Include="ReflectionTool\Private\MetaDataStructure.h" />
+    <ClInclude Include="ReflectionTool\Private\MetaEnum.h" />
+    <ClInclude Include="ReflectionTool\Private\MetaFunction.h" />
+    <ClInclude Include="ReflectionTool\Private\MetaProperty.h" />
+    <ClInclude Include="ReflectionTool\Private\ReflectionGenerator.h" />
+    <ClInclude Include="ReflectionTool\Private\Specifiers.h" />
+    <ClInclude Include="ReflectionTool\Private\Token.h" />
+    <ClInclude Include="Reflection\Private\ImplementConstructorType.h" />
+    <ClInclude Include="Reflection\Private\ImplementDataStructureType.h" />
+    <ClInclude Include="Reflection\Private\ImplementEnumType.h" />
+    <ClInclude Include="Reflection\Private\ImplementFunctionType.h" />
+    <ClInclude Include="Reflection\Private\ImplementPropertyType.h" />
+    <ClInclude Include="Reflection\Private\RuntimeImplementation.h" />
+    <ClInclude Include="Reflection\Public\ConstructorType.h" />
+    <ClInclude Include="Reflection\Public\DataStructureType.h" />
+    <ClInclude Include="Reflection\Public\DataType.h" />
+    <ClInclude Include="Reflection\Public\Enum.h" />
+    <ClInclude Include="Reflection\Public\EnumType.h" />
+    <ClInclude Include="Reflection\Public\FunctionType.h" />
+    <ClInclude Include="Reflection\Public\Parameter.h" />
+    <ClInclude Include="Reflection\Public\PropertyType.h" />
+    <ClInclude Include="Reflection\Public\ReflectionDefinitions.h" />
+    <ClInclude Include="Reflection\Public\Runtime.h" />
+    <ClInclude Include="Reflection\Public\Type.h" />
+    <ClInclude Include="SoundSystem\Private\Sound.h" />
+    <ClInclude Include="SoundSystem\Private\SoundGroup.h" />
+    <ClInclude Include="SoundSystem\Private\SoundSystem.h" />
+    <ClInclude Include="SoundSystem\Public\ISound.h" />
+    <ClInclude Include="SoundSystem\Public\ISoundGroup.h" />
+    <ClInclude Include="SoundSystem\Public\ISoundSystem.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Basic\Basic.Rules.cs" />
+    <None Include="Common\Common.Rules.cs" />
+    <None Include="Core\Core.Rules.cs" />
+    <None Include="CWrapper\CWrapper.Rules.cs" />
+    <None Include="D3DRenderer\D3DRenderer.Rules.cs" />
+    <None Include="Launcher\Launcher.Rules.cs" />
+    <None Include="ReflectionTool\ReflectionTool.Rules.cs" />
+    <None Include="Reflection\Reflection.Rules.cs" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3E279CF8-0B0A-4118-BBF7-D948D15379B3}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <NMakeBuildCommandLine>"$(SolutionDir)Binaries\Build.bat" -Engine -X86 -Debug</NMakeBuildCommandLine>
+    <NMakePreprocessorDefinitions>_DEBUG;COMMON_API=;BASIC_API=;CORE_API=;REFLECTION_API=;RENDERER_API=;CWRAPPER_API=;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeOutput>$(SolutionDir)Binaries\Launcher.exe</NMakeOutput>
+    <NMakeIncludeSearchPath>$(ProjectDir)Common\;$(ProjectDir)Basic\;$(ProjectDir)Core\;$(ProjectDir)Reflection\;$(ProjectDir)Input\;$(ProjectDir)D3DRenderer\;$(ProjectDir)CWrapper\;$(ProjectDir)ReflectionTool\;$(ProjectDir)..\ThirdParty\FreeImage;$(ProjectDir)..\ThirdParty\TinyXML;$(ProjectDir)..\ThirdParty\DirectX9;$(ProjectDir)..\ThirdParty\JSONCPP;$(ProjectDir)..\ThirdParty\FBX;$(SolutionDir)\Intermediate\Common\Generated;$(SolutionDir)\Intermediate\Basic\Generated;$(SolutionDir)\Intermediate\Core\Generated;$(SolutionDir)\Intermediate\Reflection\Generated;$(SolutionDir)\Intermediate\ReflectionTool\Generated;$(SolutionDir)\Intermediate\CWrapper\Generated;$(SolutionDir)\Intermediate\Launcher\Generated;$(SolutionDir)\Intermediate\D3DRenderer\Generated;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <NMakeBuildCommandLine>"$(SolutionDir)Binaries\Build.bat"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>
+    </NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>
+    </NMakeCleanCommandLine>
+    <NMakeIncludeSearchPath>$(ProjectDir)Core\;$(ProjectDir)Reflection\;$(ProjectDir)Input\;$(ProjectDir)D3DRenderer\;$(ProjectDir)CWrapper\;$(ProjectDir)..\ThirdParty\FreeImage;$(ProjectDir)..\ThirdParty\TinyXML;$(ProjectDir)..\ThirdParty\DirectX9;$(ProjectDir)..\ThirdParty\JSONCPP;$(ProjectDir)..\ThirdParty\FBX;$(SolutionDir)\Intermediate\Core\Generated;$(SolutionDir)\Intermediate\Reflection\Generated;$(SolutionDir)\Intermediate\ReflectionTool\Generated;$(SolutionDir)\Intermediate\CWrapper\Generated;$(SolutionDir)\Intermediate\Launcher\Generated;$(SolutionDir)\Intermediate\D3DRenderer\Generated;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+    <NMakePreprocessorDefinitions>_DEBUG;CORE_API=;REFLECTION_API=;RENDERER_API=;CWRAPPER_API=;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeOutput>$(SolutionDir)Binaries\Launcher.exe</NMakeOutput>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
