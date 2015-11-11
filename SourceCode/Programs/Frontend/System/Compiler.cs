@@ -19,7 +19,7 @@ namespace Frontend
 		public event ErrorRaisedEventHandler ErrorRaised;
 
 		public Compiler()
-		{
+		{a
 			if (EnvironmentHelper.Runtime == EnvironmentHelper.Runtimes.DotNet)
 				process = new MSBuildProcess ();
 			else
