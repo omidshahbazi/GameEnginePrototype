@@ -47,6 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="System\BuildProcess.cs" />
     <Compile Include="System\CommandLineProcess.cs" />
     <Compile Include="System\Compiler.cs" />
     <Compile Include="System\BuildSystem.cs" />
@@ -58,6 +59,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="System\BuildRules.cs" />
     <Compile Include="System\FilesMetaDataGenerator.cs" />
+    <Compile Include="System\MonoBuildProcess.cs" />
+    <Compile Include="System\MSBuildProcess.cs" />
     <Compile Include="System\SourceBuilder.cs" />
     <Compile Include="Utilites\EnvironmentHelper.cs" />
     <Compile Include="Utilites\LogHelper.cs" />

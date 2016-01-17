@@ -19,11 +19,11 @@ namespace Frontend
 		public event ErrorRaisedEventHandler ErrorRaised;
 
 		public Compiler()
-		{a
+		{
 			if (EnvironmentHelper.Runtime == EnvironmentHelper.Runtimes.DotNet)
-				process = new MSBuildProcess ();
+				process = new MSBuildProcess();
 			else
-				process = new MonoBuildProcess ();
+				process = new MonoBuildProcess();
 		}
 
 		public bool BuildProjectFile(string FilePath)
@@ -40,23 +40,23 @@ namespace Frontend
 
 				if (line.Contains(ErrorPattern))
 				{
-				//	try
-				//	{
-				//		if (line.Contains(LinkErrorPattern))
-				//		{
-				//			line = line.Split('[')[0].Substring(line.IndexOf(':') + 2);
-				//			OnErrorRaised(line);
-				//		}
-				//		else
-				//		{
-				//			string[] parts = line.Split('[')[0].Split(':');
-				//			string[] fileData = parts[1].Split('(');
-				//			OnErrorRaised(parts[2].TrimStart() + " in " + Path.GetFileName(fileData[0]) + (fileData.Length > 1 ? " Line (" + fileData[1].Split(')')[0] + ")" : "") + parts[3] + parts[4] + parts[5]);
-				//		}
-				//	}
-				//	catch (Exception e)
-				//	{
-						OnErrorRaised(line);
+					//	try
+					//	{
+					//		if (line.Contains(LinkErrorPattern))
+					//		{
+					//			line = line.Split('[')[0].Substring(line.IndexOf(':') + 2);
+					//			OnErrorRaised(line);
+					//		}
+					//		else
+					//		{
+					//			string[] parts = line.Split('[')[0].Split(':');
+					//			string[] fileData = parts[1].Split('(');
+					//			OnErrorRaised(parts[2].TrimStart() + " in " + Path.GetFileName(fileData[0]) + (fileData.Length > 1 ? " Line (" + fileData[1].Split(')')[0] + ")" : "") + parts[3] + parts[4] + parts[5]);
+					//		}
+					//	}
+					//	catch (Exception e)
+					//	{
+					OnErrorRaised(line);
 					//}
 
 					wasSuccessful = false;
