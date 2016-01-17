@@ -13,7 +13,8 @@ namespace Frontend
 			v9_0 = 0,
 			v10_0,
 			v11_0,
-			v12_0
+			v12_0,
+			v14_0
 		}
 
 		public enum PlatformTypes
@@ -237,7 +238,7 @@ namespace Frontend
 			import = CreateElement("Import");
 			import.SetAttribute("Project", "$(VCTargetsPath)/Microsoft.Cpp.Targets");
 
-			ToolsVersion = ToolsVersions.v12_0;
+			ToolsVersion = ToolsVersions.v14_0;
 		}
 
 		public void AddIncludeFile(string FilePath)

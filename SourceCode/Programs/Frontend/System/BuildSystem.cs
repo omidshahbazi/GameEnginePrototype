@@ -78,17 +78,17 @@ namespace Frontend
 
 		public BuildSystem(TargetsToBuild ToBuild, PlatformArchitectures PlatformArchitecture, ProjectFileGenerator.BuildConfigurations BuildConfiguration)
 		{
-			ConsoleHelper.WriteLineInfo (EnvironmentHelper.Runtime + " under " + EnvironmentHelper.Platform + " is present");
+			ConsoleHelper.WriteLineInfo(EnvironmentHelper.Runtime + " under " + EnvironmentHelper.Platform + " is present");
 
 			finalOutputDirectory = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location) + EnvironmentHelper.PathSeparator;
-			string rootPath = Path.GetFullPath (finalOutputDirectory + ".." + EnvironmentHelper.PathSeparator);
-			processDirectory = rootPath; // + "Source" + EnvironmentHelper.PathSeparator
+			string rootPath = Path.GetFullPath(finalOutputDirectory + ".." + EnvironmentHelper.PathSeparator);
+			processDirectory = rootPath;
 			intermediateDirectory = rootPath + "Intermediate" + EnvironmentHelper.PathSeparator;
 
 			platformType = PlatformType;
 			buildConfiguration = BuildConfiguration;
 
-			//rootPath = @"D:\Projects\Game Engine\SourceCode";
+			//rootPath = @"D:\Omid\Engine\ge3d\SourceCode";
 			//processDirectory = rootPath;
 			//intermediateDirectory = rootPath + "Intermediate\\";
 

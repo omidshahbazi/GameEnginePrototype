@@ -13,7 +13,7 @@ namespace Frontend
 				if (string.IsNullOrEmpty(mSBuildPath))
 				{
 					//mSBuildPath = "%ProgramFiles(x86)%/MSBuild/12.0/Bin/MSBuild.exe";
-					mSBuildPath = "C:/Program Files (x86)/MSBuild/12.0/Bin/MSBuild.exe";
+					mSBuildPath = "C:/Program Files (x86)/MSBuild/14.0/Bin/MSBuild.exe";
 				}
 
 				return mSBuildPath;
